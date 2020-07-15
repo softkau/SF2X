@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sf2handle">
+      <UniqueIdentifier>{a3767fe1-5163-427b-a8b5-fce54f917da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filehandle">
+      <UniqueIdentifier>{f9b861b4-391a-4fc1-849f-c2f6b113a8fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PresetHandle.cpp">
+      <Filter>sf2handle</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleHandle.cpp">
+      <Filter>sf2handle</Filter>
+    </ClCompile>
+    <ClCompile Include="SF2Handle.cpp">
+      <Filter>sf2handle</Filter>
+    </ClCompile>
+    <ClCompile Include="PdtaHandle.cpp">
+      <Filter>sf2handle</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentHandle.cpp">
+      <Filter>sf2handle</Filter>
+    </ClCompile>
+    <ClCompile Include="SF2HandleBase.cpp">
+      <Filter>sf2handle</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandle.cpp">
+      <Filter>filehandle</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceGroupBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VoiceTableBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSoundHandle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SF2toM4A.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chunk.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentHandle.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="PdtaHandle.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="PresetHandle.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleHandle.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="SF2Handle.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="sfinstrument.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="sflist.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="sfpreset.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="sfsample.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="SF2HandleBase.h">
+      <Filter>sf2handle</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHandle.h">
+      <Filter>filehandle</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>filehandle</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceGroupBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VoiceTableBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="m4a.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="endian.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSoundHandle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SF2toM4A.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
