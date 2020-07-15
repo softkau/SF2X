@@ -16,7 +16,7 @@ Special thanks for ipatix for teaching me bunch of m4a related stuff :D
 
 
 # HOW TO USE
-Open the file:
+Open the exe (build):
 
 
 Soundfont: (soundfont dir)
