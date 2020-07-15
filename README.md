@@ -18,15 +18,17 @@ Special thanks for ipatix for teaching me bunch of m4a related stuff :D
 # HOW TO USE
 Open the file:
 
->>>
 
 Soundfont: (soundfont dir)
+
 ROM: (rom dir)
+
 FreeSpace for voicegroup table + alpha: (freespace offset #1)
+
 FreeSpace for samples: (freespace offset #2)
+
 Finished!
 
-<<<
 
 freespace offset #1: this will be your start of voicegroup. "alpha" means that it might add extra stuff after the voicegroup table, such as key split table, precussion table, and sub-instrument table.
 
