@@ -14,9 +14,9 @@ int main()
 
 	UINT32 vg_fs, ds_fs;
 	std::cout << "FreeSpace for voicegroup table + alpha: ";
-	std::cin >> vg_fs;
+	std::cin >> std::hex >> vg_fs;
 	std::cout << "FreeSpace for samples: ";
-	std::cin >> ds_fs;
+	std::cin >> std::hex >> ds_fs;
 
 	inserter.setFreeSpace(vg_fs, ds_fs);
 
