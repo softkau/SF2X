@@ -7,6 +7,11 @@ int main()
 	std::string soundfont, rom;
 	std::cout << "SoundFont: ";
 	std::cin >> soundfont;
+
+	UINT32 bnk;
+	std::cout << "Bank: ";
+	std::cin >> bnk;
+
 	std::cout << "ROM: ";
 	std::cin >> rom;
 
@@ -20,7 +25,7 @@ int main()
 
 	inserter.setFreeSpace(vg_fs, ds_fs);
 
-	inserter.addAll();
+	inserter.addBank(bnk);
 	std::cout << "Finished!";
 	std::cin >> soundfont; // wait lol
 

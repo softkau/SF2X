@@ -89,6 +89,17 @@ void SF2toM4A::addAll()
 	}
 }
 
+void SF2toM4A::addBank(UINT32 bank)
+{
+	UINT32 sz = sf_handle->preset_handle->size();
+	for (UINT32 p = 0; p < sz; p++)
+	{
+		sf::Preset preset = sf_handle->preset_handle->parse(p);
+		if (preset.header.bank == bank)
+			addInstrument(preset.zone[0].instNdx, preset.header.preset);
+	}
+}
+
 void SF2toM4A::addInstrument(UINT32 inst_ndx, UINT32 vg_ndx)
 {
 	if (voice_table.get() == nullptr) throw std::runtime_error("Freespace is not initialized!");

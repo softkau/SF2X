@@ -16,6 +16,8 @@ public:
 
 	void addAll();
 
+	void addBank(UINT32 bank);
+
 	void addInstrument(UINT32 inst_ndx, UINT32 vg_ndx);
 
 	struct ADSRconstant
