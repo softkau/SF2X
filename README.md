@@ -20,10 +20,12 @@ Special thanks for ipatix for teaching me bunch of m4a related stuff :D
 open up SF2X.sln in Visual Studio (2019). check release mode. press ctrl + shift + B to build. the exe file will be generated.
 
 # HOW TO USE
-Open the exe (build):
+Open the exe:
 
 
 Soundfont: (soundfont dir)
+
+Bank: (bank number you want to insert)
 
 ROM: (rom dir)
 
