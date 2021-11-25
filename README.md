@@ -1,6 +1,7 @@
 # SF2X
 sf2 to m4a voicegroup tool (written in C++)
-version alpha 1.0
+version alpha 1.0  
+(warning: sf2x is planned for moving the codebase into vscode for cross-platform stuff, so expect some changes soon)
 
 # WHAT DOES IT DO?
 Currently, it adds all instruments in soundfont files.
